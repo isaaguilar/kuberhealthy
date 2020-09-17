@@ -27,4 +27,4 @@ jobs:
           index_dir: helm-repos
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
-          CR_RELEASE_NAME_TEMPLATE: "{{ .Name }}-{{ .Version }} - Helm Chart"
+          CR_RELEASE_NAME_TEMPLATE: "Helm-Chart-{{ .Name }}-{{ .Version }}"
