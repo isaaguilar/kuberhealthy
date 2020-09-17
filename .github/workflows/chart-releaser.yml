@@ -23,6 +23,6 @@ jobs:
         uses: isaaguilar/chart-releaser-action@v1.1.0-beta.2
         with:
           charts_dir: deploy/helm
-          index_dir: helm-charts
+          index_dir: helm-repos
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
