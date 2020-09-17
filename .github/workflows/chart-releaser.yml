@@ -22,6 +22,7 @@ jobs:
       - name: Run chart-releaser
         uses: isaaguilar/chart-releaser-action@v1.1.0-beta.2
         with:
+          charts_repo_url: https://comcast.github.io/kuberhealthy/helm-repos
           charts_dir: deploy/helm
           index_dir: helm-repos
         env:
