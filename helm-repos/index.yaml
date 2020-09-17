@@ -3,9 +3,9 @@ entries:
   kuberhealthy:
   - apiVersion: v2
     appVersion: 2.2.0
-    created: "2020-09-17T17:31:49.846211968Z"
+    created: "2020-09-17T17:42:38.673397882Z"
     description: An operator for synthetic test and monitoring. Works great with Prometheus.
-    digest: 92ec589e5204f0eab8e82f5664b7d692411fb1e949c6bbb87b45605019a2e637
+    digest: 1f6998ed4dfc7f35446596e5b3f0c105fa4d5a305b2797649d4b3d7a95522a9e
     home: https://comcast.github.io/kuberhealthy/
     icon: https://raw.githubusercontent.com/Comcast/kuberhealthy/master/images/logo-square.png
     keywords:
@@ -35,6 +35,6 @@ entries:
     - https://github.com/helm/charts/tree/master/stable/kuberhealthy
     type: application
     urls:
-    - https://github.com/isaaguilar/kuberhealthy/releases/download/kuberhealthy-2.2.2/kuberhealthy-2.2.2.tgz
-    version: 2.2.2
-generated: "2020-09-17T17:31:49.694356697Z"
+    - https://github.com/isaaguilar/kuberhealthy/releases/download/kuberhealthy-v2.2.2/kuberhealthy-v2.2.2.tgz
+    version: v2.2.2
+generated: "2020-09-17T17:42:38.555571647Z"
