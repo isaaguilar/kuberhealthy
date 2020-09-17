@@ -20,9 +20,9 @@ jobs:
           git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
 
       - name: Run chart-releaser
-        uses: isaaguilar/chart-releaser-action@v1.1.0-beta.1
+        uses: isaaguilar/chart-releaser-action@v1.1.0-beta.2
         with:
-          charts_dir: deploy/helm/
-          index_dir: helm-charts/
+          charts_dir: deploy/helm
+          index_dir: helm-charts
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
